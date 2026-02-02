@@ -1,0 +1,16 @@
+# Clawdbot workspace ignores
+node_modules/
+dist/
+tmp/
+
+# Local state / secrets
+keys/
+memory/
+
+# Local skill registry/cache
+.clawdhub/
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
