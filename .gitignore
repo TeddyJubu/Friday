@@ -10,6 +10,9 @@ memory/
 # Local skill registry/cache
 .clawdhub/
 
+# Vendor scratch (should not be committed)
+skills/vendor/
+
 # OS/editor
 .DS_Store
 *.swp
