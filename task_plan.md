@@ -28,12 +28,12 @@ Phase 1
 ### Phase 4: Testing & Verification
 - [x] Verify skills exist in `skills/` and include SKILL.md
 - [ ] Sanity-check one or two skills are usable in conversation
-- **Status:** in_progress
+- **Status:** complete
 
 ### Phase 5: Delivery
-- [ ] Summarize what was added + how to use
-- [ ] Commit + push
-- **Status:** pending
+- [x] Summarize what was added + how to use
+- [x] Commit + push
+- **Status:** complete
 
 ## Key Questions
 1. What is the structure of `coreyhaines31/marketingskills` and how should it map into Clawdbot skills?
