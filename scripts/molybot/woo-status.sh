@@ -35,6 +35,12 @@ ssh molybot-woo "wp --path=$WP_PATH plugin get woocommerce --field=version 2>/de
 echo -n "Orders (last 24h): "
 ssh molybot-woo "wp --path=$WP_PATH wc order list --after=$(date -d '24 hours ago' -Iseconds 2>/dev/null || date -v-1d +%Y-%m-%dT%H:%M:%S) --format=count 2>/dev/null || echo 'N/A'"
 
+# Woo MCP feature status
+echo -n "Woo MCP feature flag: "
+ssh molybot-woo "wp --path=$WP_PATH option get woocommerce_feature_mcp_integration_enabled 2>/dev/null || echo 'no'"
+
+echo "Woo MCP endpoint: https://uniquecollectionbyprincess.com/wp-json/woocommerce/mcp"
+
 # Last audit entry
 echo ""
 echo "Last Audit Entry:"
