@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "clawdhub": "^0.3.0"
+  },
+  "dependencies": {
+    "undici": "^7.19.2"
+  }
+}
