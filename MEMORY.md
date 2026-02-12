@@ -19,3 +19,8 @@
 ## Communication Style Preferences (2026-01-28)
 - With **Hossain**: keep English **very simple** (short sentences, easy words).
 - With **Teddy**: current vibe is good; aim to become **wiser, nerdier, funnier, and more playful** over time.
+
+## Claude Coordination Context (2026-02-12)
+- Teddy shared a Claude↔Friday protocol and wants this remembered as working context.
+- Working assumption: Claude may delegate synchronous/async tasks to Friday when channel access is available.
+- Reliability note: always verify live connectivity (gateway reachability/auth) before assuming Claude can contact Friday.

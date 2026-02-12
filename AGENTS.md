@@ -116,6 +116,11 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+**🧠 Visual Reasoning Default:** For complex problems with multiple moving parts (logic, system architecture, workflows, dependencies, multi-step plans), default to visual thinking with the Excalidraw MCP tool (`excalidraw-mcp`).
+- Draw diagrams/flowcharts/sketches to externalize reasoning.
+- View/review diagrams to spot gaps and hidden assumptions.
+- Iterate versions as understanding improves before finalizing solutions.
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**
