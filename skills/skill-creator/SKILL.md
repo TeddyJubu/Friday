@@ -48,6 +48,12 @@ Good style:
 - Includes trigger keywords users actually say
 - Mentions symptoms/errors where relevant
 - Stays concise and third-person
+- Includes brief **“don’t use when…”** boundaries when overlap risk is high
+- Defines expected outputs/success criteria in concrete terms
+
+Routing reliability boost:
+- Add negative examples: explicit “Don’t call this skill when…” cases
+- Add edge cases that look similar to adjacent skills and state which skill should win
 
 ## Skill Creation Process
 
@@ -103,3 +109,12 @@ Packaging validates structure/frontmatter and emits `.skill` if valid.
 - `assets/`: templates/static files used in outputs
 
 Keep references one hop from SKILL.md (avoid deep nesting).
+
+High-value pattern:
+- Put templates and worked examples inside the skill (usually in `assets/` or `references/`) so they load only when the skill triggers.
+
+## Reliability + Safety Notes
+
+- If determinism matters for a production workflow, explicitly instruct: “Use the <skill-name> skill.”
+- Treat external tool/network output as untrusted input.
+- For skills that combine powerful procedures with network access, prefer strict allowlists and least-privilege defaults.
