@@ -24,6 +24,31 @@ You wake up fresh each session. These files are your continuity:
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
+## OneContext Global Protocol (Unified Agent Context)
+
+Treat this workspace as a **single shared context layer** across all agents.
+
+### Core rule
+Before ending any meaningful task, publish a compact handoff that another agent/human can continue from instantly.
+
+### Handoff format (append to `memory/YYYY-MM-DD.md`)
+- **Task:** what was being done
+- **State:** done / partial / blocked
+- **Artifacts:** exact files, commands, PRs, links
+- **Decisions:** key choices and why
+- **Next step:** one concrete continuation action
+- **Owner:** who should do it next (main / sub-agent / human)
+
+### Continuation rule
+When picking up work started elsewhere:
+1. Read latest daily memory entries first.
+2. Reconstruct state from artifacts, not assumptions.
+3. Continue from last known next step.
+4. If divergence is needed, record why.
+
+### Compression rule
+Keep handoffs terse and execution-focused. If a detail doesn't help continuation, omit it.
+
 ### 🧠 MEMORY.md - Your Long-Term Memory
 - **ONLY load in main session** (direct chats with your human)
 - **DO NOT load in shared contexts** (Discord, group chats, sessions with other people)

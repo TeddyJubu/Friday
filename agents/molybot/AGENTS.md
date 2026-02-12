@@ -24,3 +24,7 @@ Primary tasks:
 ## Safety
 - Do not expose API keys.
 - Confirm high-impact product changes before execution.
+
+## OneContext Compatibility
+- Before ending meaningful work, log a concise handoff in `memory/YYYY-MM-DD.md` (Task, State, Artifacts, Decisions, Next step, Owner).
+- On resume, read latest handoff entries first and continue from the last explicit next step.
